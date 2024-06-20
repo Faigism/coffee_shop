@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  .image {
+    height: 34px;
+    cursor: pointer;
+  }
+  .nav_links {
+    display: flex;
+    align-items: center;
+    .active {
+      color: rgb(163, 98, 0);
+    }
+    .opacityIcon {
+      opacity: 0;
+    }
+  }
+}

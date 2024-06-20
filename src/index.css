@@ -1,0 +1,40 @@
+body {
+  background-color: #f6ebda;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+  a {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+  }
+  li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 400ms;
+    &:hover {
+      color: rgb(163, 98, 0);
+    }
+  }
+}
+
+.fa-cart-shopping {
+  padding-left: 50px;
+  font-size: 22px;
+  color: #d48a0e;
+  cursor: pointer;
+  position: relative;
+  span {
+    width: 20px;
+    text-align: center;
+    position: absolute;
+    top: -26px;
+    right: -16px;
+    background-color: black;
+    font-size: 12px;
+    padding: 10px 6px;
+    border-radius: 20px;
+  }
+}

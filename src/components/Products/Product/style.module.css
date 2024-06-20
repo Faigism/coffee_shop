@@ -1,0 +1,44 @@
+.product {
+  width: 25.3%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  button {
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 400ms;
+  }
+  .btn {
+    background-color: #9898cc;
+
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+  }
+  span {
+    width: 100px;
+  }
+}
+
+.disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
